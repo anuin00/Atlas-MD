@@ -35,7 +35,7 @@ require("./BotCharacters.js");
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918101187835";   // You can Change this number //
+  gg = "6281939183545";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
@@ -44,7 +44,7 @@ if (!gg) {
 global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "NONE";
 global.sessionId = process.env.SESSION_ID || "ok";
-global.prefa = process.env.PREFIX || "-";
+global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
 global.packname = process.env.PACKNAME || `Atlas MD`;
@@ -71,4 +71,3 @@ global.mess = {
   bangc: "This Group is *Banned* from using Commands!",
   nonsfw: "Dont be a pervert Baka! This is not a NSFW enabled group!",
 };
-
